@@ -1,7 +1,4 @@
 from django import forms
-from django.contrib.auth.models import AbstractUser
-from django.db.transaction import clean_savepoints
-
 from user.models import CustomUser
 
 

@@ -6,11 +6,11 @@ from .managers import CustomUserManager
 
 
 class CustomUser(AbstractUser):
-    email = models.EmailField(_("email address"), unique=True)
-    username = models.CharField(max_length=150, unique=False, null=True, blank=True)
-    is_active = models.BooleanField(default=True)
-    is_staff = models.BooleanField(default=True)
-    is_superuser = models.BooleanField(default=True)
+    email = models.EmailField(unique=True, verbose_name=_("email"))
+    username = models.CharField(max_length=150, unique=False, null=True, blank=True, verbose_name=_("username"))
+    is_active = models.BooleanField(default=True, verbose_name=_("is_active"))
+    is_staff = models.BooleanField(default=True, verbose_name=_("is_staff"))
+    is_superuser = models.BooleanField(default=True, verbose_name=_("is_superuser"))
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
