@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-04 20:31+0500\n"
+"POT-Creation-Date: 2025-08-05 15:40+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: .\core\settings.py:112
+
+#: .\core\settings.py:112 .\templates\products.html:207
 msgid "English"
 msgstr ""
 
-#: .\core\settings.py:113
+#: .\core\settings.py:113 .\templates\products.html:208
 msgid "Uzbek"
 msgstr ""
 
@@ -39,6 +40,58 @@ msgstr ""
 
 #: .\products\models.py:8
 msgid "updated_at"
+msgstr ""
+
+#: .\templates\products.html:186
+msgid "Product Manager"
+msgstr ""
+
+#: .\templates\products.html:188
+msgid "Products"
+msgstr ""
+
+#: .\templates\products.html:189
+msgid "Add Product"
+msgstr ""
+
+#: .\templates\products.html:191
+msgid "Log Out"
+msgstr ""
+
+#: .\templates\products.html:193
+msgid "Log In"
+msgstr ""
+
+#: .\templates\products.html:196
+msgid "You are logged in as"
+msgstr ""
+
+#: .\templates\products.html:198
+msgid "You are not logged in"
+msgstr ""
+
+#: .\templates\products.html:213
+msgid "Add New Product"
+msgstr ""
+
+#: .\templates\products.html:219
+msgid "Name"
+msgstr ""
+
+#: .\templates\products.html:220
+msgid "Quantity"
+msgstr ""
+
+#: .\templates\products.html:221
+msgid "Actions"
+msgstr ""
+
+#: .\templates\products.html:234
+msgid "Update"
+msgstr ""
+
+#: .\templates\products.html:239
+msgid "Delete"
 msgstr ""
 
 #: .\user\managers.py:15

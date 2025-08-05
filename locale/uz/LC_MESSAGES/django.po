@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-04 20:31+0500\n"
+"POT-Creation-Date: 2025-08-05 15:40+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: .\core\settings.py:112
+
+#: .\core\settings.py:112 .\templates\products.html:207
 msgid "English"
 msgstr "Ingliz tili"
 
-#: .\core\settings.py:113
+#: .\core\settings.py:113 .\templates\products.html:208
 msgid "Uzbek"
-msgstr ""
+msgstr "O'zbek tili"
 
 #: .\products\models.py:4
 msgid "name"
@@ -40,6 +41,58 @@ msgstr "yaratilgan vaqti"
 #: .\products\models.py:8
 msgid "updated_at"
 msgstr "yangilangan vaqti"
+
+#: .\templates\products.html:186
+msgid "Product Manager"
+msgstr "Mahsulot menejeri"
+
+#: .\templates\products.html:188
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: .\templates\products.html:189
+msgid "Add Product"
+msgstr "Mahsulot qo'shish"
+
+#: .\templates\products.html:191
+msgid "Log Out"
+msgstr "Chiqish"
+
+#: .\templates\products.html:193
+msgid "Log In"
+msgstr "Tizimga kirish"
+
+#: .\templates\products.html:196
+msgid "You are logged in as"
+msgstr "sifatida tizimga kirgansiz"
+
+#: .\templates\products.html:198
+msgid "You are not logged in"
+msgstr "Siz tizimga kirmagansiz"
+
+#: .\templates\products.html:213
+msgid "Add New Product"
+msgstr "Yangi mahsulot qo'shish"
+
+#: .\templates\products.html:219
+msgid "Name"
+msgstr "Nomi"
+
+#: .\templates\products.html:220
+msgid "Quantity"
+msgstr "miqdori"
+
+#: .\templates\products.html:221
+msgid "Actions"
+msgstr "Harakatlar"
+
+#: .\templates\products.html:234
+msgid "Update"
+msgstr "Yangilash"
+
+#: .\templates\products.html:239
+msgid "Delete"
+msgstr "O'chirish"
 
 #: .\user\managers.py:15
 msgid "The Email must be set"
